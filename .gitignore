@@ -1,2 +1,4 @@
 /cache
 /data/__pycache__
+/model/__pycache__
+/pretrained/wav2vec_small.pt

@@ -1,5 +1,5 @@
+import torch
 from fairseq.models.wav2vec import Wav2Vec2Model
-import torch.nn as nn
 
 def load_pretrained_wav2vec(ckpt_path):
     """Load pretrained Wav2Vec model."""
@@ -9,5 +9,4 @@ def load_pretrained_wav2vec(ckpt_path):
     model.remove_pretraining_modules()
     model.eval()
     return model
-
 

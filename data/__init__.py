@@ -1,2 +1,2 @@
-from .wav2mel import Wav2Mel
+from .wav_preprocess import WavPreprocessNet
 from .mel_dataset import MelDataset
